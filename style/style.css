@@ -1,0 +1,112 @@
+/*selector universal - Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*@font-face {
+    font-family: gotham;
+    src: url(../fonts/Gotham/);
+    font-style: normal;
+    font-weight: 400;
+}consulta---*/
+
+
+
+header{
+    background-color: pink;
+    padding: 60px;
+}
+/*saco puntos de la lista nav*/
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color:rgb(50, 50, 50);
+}
+
+h1{
+    color: red;
+    padding: 50px; 
+    margin: 30px 70px 30px 10px;
+    border: 15px solid black; 
+    text-align: center;
+}
+p{
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(245, 255, 250);
+    background-color: #437569;
+    padding: 30px;
+    margin-right: 100px;
+    border: 5px solid orange;
+}
+
+img{
+    height: 100%;
+    border: 4px solid blue;
+    border-radius: 3px;
+}
+
+body{
+    background-color: skyblue;
+}
+
+footer{
+    background-color: blueviolet;
+    margin-top: 400px;
+    padding: 80px;
+}
+
+div{
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*class*/
+
+.logo{
+    height: 100%;   
+}
+.primerParrafo{
+    font-style: italic;
+    color: rgb(231, 156, 33);
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+.inicio .frase {
+    font-size: 40px;
+    color: #437569;
+}
+.flexContainer{
+    background-color: pink;
+    padding: 30px;
+    display: flex;
+}
+/*id (los reservamos para js)*/
+#presentacion{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
